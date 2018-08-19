@@ -1,0 +1,127 @@
+.maincontainer {
+	max-width: 1080px;
+	text-align: center;
+}
+
+.bodyContainer {
+	display: flex;
+	max-width: 1080px;
+}
+
+#navbar {
+	background-color: black;
+	max-width: 1080px;
+	color: white;
+	text-align: left;
+}
+
+#navbar p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+select {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 2px;
+}
+
+.dropdown {
+/*	max-width:200px;*/
+/*	max-height:200px;*/
+	display:inline-grid;
+	border: 1px solid white;
+	/*display: inline;
+	position: relative;
+	margin-left: 200px;
+	border:1px solid blue;
+	max-width:100px;
+	max-height:100px;*/
+}
+
+.dropdownbutton {
+	background-color:black;
+	color: white;
+	border-radius: 0;
+}
+
+#droplist a {
+	padding: 10px;
+}
+
+#droplist {
+	display: none;
+}
+
+.leftColumn {
+	margin: 10px;
+	max-width: 60%;
+}
+
+.rightColumn {
+	margin: 10px;
+	max-width: 40%;
+}
+
+.cityInfo, .Weather {
+
+	background-color: lightgrey;
+	padding: 10px;
+	text-align: left;
+}
+
+img#LondonMap, img#NewYorkMap, img#RomeMap {
+    max-width: 100%;
+}
+
+.extraInfo {
+	padding: 10px;
+}
+
+.extraInfo img {
+	max-height: 100px;
+	display: inline-flex;
+}
+
+#NewYork, #Rome, #LondonVideo, #NYVideo, #RomeVideo {
+	display: none;
+}
+
+
+button.vidImgBtn {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+}
+
+button.vidImgBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+img#LondonMap, img#NewYorkMap, img#RomeMap {
+	padding-top: 50px;
+}
+
+.weatherButton {
+	color: black;
+	text-decoration: none;
+}
+
+.weatherButton:hover {
+	text-decoration: underline;
+}
+
+.weatherSymbols {
+	width: 10%;
+}
+
+.Weather h1 {
+	display: inline;
+}

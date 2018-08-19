@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="test.js"></script>
+</head>
+
+
+<body>
+
+	<div class=maincontainer>
+		
+		<div id=navbar>
+			<p>Select a city:</p>
+			<div class=dropdown id="dropdown">
+			<!-- <button onclick="showDropDown()" class="dropdownbutton">--Select--</button> -->
+				<select onchange="showInfo(this)">
+					<option value="0">London</option>
+					<option value="1">New York</option>
+					<option value="2">Rome</option>
+				</select>
+
+			</div>
+		</div>
+
+	<!-- 	LONDON -->
+
+		<div class=bodyContainer id=London>
+
+			<div class=leftColumn>
+				<div class=cityInfo>
+					<h1>London</h1>
+					<p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
+				</div>
+				<div>
+					
+
+				</div>
+				<div class=extraInfo>
+					<button class=vidImgBtn onclick="extraShow()">Video/Images - Click to swap</button>
+					<div id=LondonImages>
+						<img src="https://www.telegraph.co.uk/content/dam/video_previews/x/5/x5cgi0ode66q6vuxezqmehmexwer6bt-xlarge.jpg">
+						<img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/f4/ec/0d/thames-hop-on-hop-off.jpg">
+						<img src="https://c.ststat.net/content/EntImg/HomepageModule/--1074844231-940x600.jpg">
+						<img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/03/07/12/pa-23790250.jpg">
+						<img src="http://www.xandriawilliams.co.uk/wp-content/uploads/2018/05/London.jpg">
+						<img src="https://www.chambersstudent.co.uk/media/1198/the_city_london.jpg">
+					</div>
+					<iframe id=LondonVideo width="560" height="315" src="https://www.youtube.com/embed/PtWeqZsuzpE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class=rightColumn>
+				<div class=Weather>
+					<h1>London weather:</h1>
+					<img class=weatherSymbols src="https://pics.clipartpng.com/midle/Partly_Cloudy_with_Sun_and_Rain_Weather_Icon_PNG_Clip_Art-1502.png">
+					<img class=weatherSymbols src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Weather-more-clouds.svg/2000px-Weather-more-clouds.svg.png">
+					<img class=weatherSymbols src="http://www.clker.com/cliparts/f/6/7/4/1206565674431593790Anonymous_simple_weather_symbols_10.svg.med.png"><br><br>
+					<a href="https://www.bbc.co.uk/weather/2643743" target="_blank" class=weatherButton >Click Here</a>
+
+				</div>
+				<div class=map>
+					<img id="LondonMap" src="https://i2-prod.getwestlondon.co.uk/incoming/article9313114.ece/ALTERNATES/s615/Untitled.jpg">
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- NEW YORK -->
+
+		<div class=bodyContainer id=NewYork>
+
+			<div class=leftColumn>
+				<div class=cityInfo>
+					<h1>New York</h1>
+					<p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.</p>
+				</div>
+
+				<div class=extraInfo>
+					<button class=vidImgBtn onclick="extraShow()">Video/Images - Click to swap</button>
+					<div id=NYImages>
+						<img src="https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?auto=compress&cs=tinysrgb&h=350">
+						<img src="https://vignette.wikia.nocookie.net/cnc/images/4/47/New_york.jpg/revision/latest?cb=20160331233915">
+						<img src="http://www.cisaustralia.com.au/uploads/images/program/Time-Square-Taxis-Resize_11495781860.jpg">
+						<img src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/auto/2018/04/20/new-york-city-banning-cars-from-central-park/_jcr_content/par/featured_image/media-0.img.jpg/931/524/1524240493244.jpg?ve=1&tl=1&text=big-top-image">
+						<img src="https://www.aada.edu/template/frontend/img/campus-overview/ny-1.jpg">
+						<img src="https://d12dkjq56sjcos.cloudfront.net/pub/media/wysiwyg/route-images/View-Of-New-York-Brooklyn-Bridge-Slider-Big-Bus-Tours-Jan-2017.jpg">
+					</div>
+					<iframe id=NYVideo width="560" height="315" src="https://www.youtube.com/embed/58A6UU0YdmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				
+			</div>
+
+			<div class=rightColumn>
+				<div class=Weather>
+					<h1>New York weather:</h1>
+					<img class=weatherSymbols src="https://pics.clipartpng.com/midle/Partly_Cloudy_with_Sun_and_Rain_Weather_Icon_PNG_Clip_Art-1502.png">
+					<img class=weatherSymbols src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Weather-more-clouds.svg/2000px-Weather-more-clouds.svg.png">
+					<img class=weatherSymbols src="http://www.clker.com/cliparts/f/6/7/4/1206565674431593790Anonymous_simple_weather_symbols_10.svg.med.png"><br><br>
+					<a href="https://www.bbc.co.uk/weather/0/5128581" target="_blank" class=weatherButton >Click Here</a>
+				</div>
+				<div class=map>
+					<img id="NewYorkMap" src="https://pmcspy.files.wordpress.com/2017/03/doubletree-metropolitan-hotel-new-york-city-map-e1490764722845.gif?w=572&h=364&crop=1">
+				</div>
+			</div>
+		</div>
+
+		<!-- ROME -->
+
+		<div class=bodyContainer id=Rome>
+
+			<div class=leftColumn>
+				<div class=cityInfo>
+					<h1>Rome</h1>
+					<p>Rome, Italy’s capital, is a sprawling, cosmopolitan city with nearly 3,000 years of globally influential art, architecture and culture on display. Ancient ruins such as the Forum and the Colosseum evoke the power of the former Roman Empire. Vatican City, headquarters of the Roman Catholic Church, has St. Peter’s Basilica and the Vatican Museums, which house masterpieces such as Michelangelo’s Sistine Chapel frescoes.</p>
+				</div>
+
+				<div class=extraInfo>
+					<button class=vidImgBtn onclick="extraShow()">Video/Images - Click to swap</button>
+					<div id=RomeImages>
+						<img src="https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5232386545001_5215063851001-vs.jpg?pubId=5104226627001&videoId=5215063851001">
+						<img src="https://lonelyplanetimages.imgix.net/mastheads/stock-photo-roman-sunset-77415821.jpg?sharp=10&vib=20&w=1200">
+						<img src="https://cdn.britannica.com/700x450/34/197334-004-600ED154.jpg">
+						<img src="https://www.telegraph.co.uk/content/dam/travel/Spark/Holiday%20hunter/saga-trevi-fountain.jpg?imwidth=450">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9OlQYtYZm6JqIwmXP0zdZB-SmNhp2X3ETOH68_Me10qNJHeIHA">
+						<img src="https://s.abcnews.com/images/International/rome-snow-gty-ml-180226_4x3_992.jpg">
+					</div>
+					<iframe id=RomeVideo width="560" height="315" src="https://www.youtube.com/embed/DEJx0CYrDHk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class=rightColumn>
+				<div class=Weather>
+					<h1>Rome weather:</h1>
+					<img class=weatherSymbols src="https://pics.clipartpng.com/midle/Partly_Cloudy_with_Sun_and_Rain_Weather_Icon_PNG_Clip_Art-1502.png">
+					<img class=weatherSymbols src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Weather-more-clouds.svg/2000px-Weather-more-clouds.svg.png">
+					<img class=weatherSymbols src="http://www.clker.com/cliparts/f/6/7/4/1206565674431593790Anonymous_simple_weather_symbols_10.svg.med.png"><br><br>
+					<a href="https://www.bbc.co.uk/weather/0/3169070" target="_blank" class=weatherButton >Click Here</a>
+				</div>
+				<div class=map>
+					<img id="RomeMap" src="https://4znt8hi353-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/Rome-Google-Map.jpg">
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+	</div>
+
+</body>
+</html>
